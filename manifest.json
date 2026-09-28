@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "com.dchadwick.windowcommander",
+  "name": "Window Commander",
+  "version": "0.1.0",
+  "author": "Dusty Chadwick",
+  "license": "GPL-3.0",
+  "description": "Grab a pill on any tiled split and drag to resize, iPad/macOS style, plus a dockable focus rail. A service draws the always-on handles and dots; a panel configures them.",
+  "kinds": ["service", "panel", "bar-widget"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "panel": "Panel.qml",
+    "barWidget": "BarIcon.qml"
+  },
+  "barWidget": {
+    "displayName": "Window Commander",
+    "description": "Open Window Commander settings",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
