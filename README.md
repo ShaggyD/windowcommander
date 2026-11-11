@@ -87,7 +87,7 @@ Omarchy shell (Quickshell), takes no root, and runs no background daemon.
 ## Install
 
 ```bash
-git clone <repo-url> ~/.config/omarchy/plugins/com.dchadwick.windowcommander
+git clone https://github.com/ShaggyD/windowcommander.git ~/.config/omarchy/plugins/com.dchadwick.windowcommander
 omarchy plugin enable com.dchadwick.windowcommander
 ```
 
@@ -218,4 +218,4 @@ journalctl --user -f | grep -i windowcommander
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+GNU General Public License v3.0 (GPLv3). See [LICENSE](LICENSE).
